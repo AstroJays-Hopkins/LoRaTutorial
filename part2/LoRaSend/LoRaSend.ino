@@ -1,5 +1,5 @@
 #include <LoRa.h>
-#include "../utils.h"
+#include "../../utils/utils.h"
 
 //set up sensors
 
