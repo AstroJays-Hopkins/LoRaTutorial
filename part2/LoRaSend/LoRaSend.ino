@@ -1,16 +1,20 @@
 #include <LoRa.h>
-#include "../../utils/utils.h"
+#include <lorautils.h>
 
 //set up sensors
 
 void setup() {
     //set up lora
-    
+    //set up serial
 }
 
 void loop() {
-    //pull data from sensors
-    //put data into packet
-    //cast packet to uint8
+    //read string from serial
+    //https://www.circuitbasics.com/how-to-read-user-input-from-the-arduino-serial-monitor/
+
+    //convert it to char
+
+    //cast it to uint8_t
+
     //send packet via lora
 }

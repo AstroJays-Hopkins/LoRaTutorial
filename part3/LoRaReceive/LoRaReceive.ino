@@ -1,5 +1,5 @@
 #include <LoRa.h>
-
+#include <lorautils.h>
 
 void setup() {
     //set up lora
@@ -8,6 +8,6 @@ void setup() {
 
 void loop() {
     //parse packet
-
-     //read out packet
+    //cast data to packet
+    //read out packet
 }

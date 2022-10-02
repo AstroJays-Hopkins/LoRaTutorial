@@ -1,3 +1,5 @@
+#include "lorautils.h"
+
 void cast_data_to_packet(uint8_t * buffer, Packet * packet){
     packet = (Packet *) buffer;
 }
